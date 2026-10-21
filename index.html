@@ -1,105 +1,182 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Rafael Pacheco | Desenvolvimento de software e programação</title>
-  <meta name="description" content="Estudante de Sistemas de Informação que desenvolve sites, scripts, automações e aplicações simples. Veja serviços, preços iniciais e projetos autorais.">
-  <meta property="og:title" content="Rafael Pacheco | Desenvolvimento de software">
-  <meta property="og:description" content="Sites, scripts, automações e aplicações simples. Preços iniciais e projetos autorais.">
-  <meta property="og:type" content="website">
-  <meta name="theme-color" content="#111111">
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23111'/%3E%3Ctext x='16' y='22' font-size='16' font-family='sans-serif' font-weight='700' text-anchor='middle' fill='%23fff'%3ERP%3C/text%3E%3C/svg%3E">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./CSS/style.css">
-</head>
-<body>
-  <a class="skip" href="#conteudo">Pular para o conteúdo</a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Rafael Pacheco | Desenvolvimento de software e programação</title>
+    <meta
+      name="description"
+      content="Estudante de Sistemas de Informação que desenvolve sites, scripts, automações e aplicações simples. Veja serviços, preços iniciais e projetos autorais."
+    />
+    <meta
+      property="og:title"
+      content="Rafael Pacheco | Desenvolvimento de software"
+    />
+    <meta
+      property="og:description"
+      content="Sites, scripts, automações e aplicações simples. Preços iniciais e projetos autorais."
+    />
+    <meta property="og:type" content="website" />
+    <meta name="theme-color" content="#111111" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23111'/%3E%3Ctext x='16' y='22' font-size='16' font-family='sans-serif' font-weight='700' text-anchor='middle' fill='%23fff'%3ERP%3C/text%3E%3C/svg%3E"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./CSS/style.css" />
+  </head>
+  <body>
+    <a class="skip" href="#conteudo">Pular para o conteúdo</a>
 
-  <header class="header">
-    <div class="wrap header__in">
-      <a class="brand" href="#inicio" data-bind="brand">Rafael Pacheco</a>
-      <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="nav">Menu</button>
-      <nav class="nav" id="nav" aria-label="Principal">
-        <a href="#inicio">Início</a>
-        <a href="#sobre">Sobre mim</a>
-        <a href="#servicos">Serviços e preços</a>
-        <a href="#projetos">Projetos autorais</a>
-        <a href="#contato">Contato</a>
-        <a class="btn btn--sm" data-wa="Olá! Vi seu site e gostaria de conversar sobre um serviço de desenvolvimento." target="_blank" rel="noopener noreferrer">WhatsApp</a>
-      </nav>
-    </div>
-  </header>
-
-  <main id="conteudo">
-    <section class="hero" id="inicio">
-      <div class="wrap">
-        <p class="muted" data-bind="role">Estudante de Sistemas de Informação</p>
-        <h1 data-bind="headline">Software simples, bem feito e com comunicação clara.</h1>
-        <p class="lead" data-bind="intro">Sou estudante de Sistemas de Informação e tenho formação técnica em andamento em informática. Desenvolvo sites, scripts, automações e aplicações simples, com atenção ao que você realmente precisa.</p>
-        <div class="actions">
-          <a class="btn" data-wa="Olá! Vi seu site e gostaria de solicitar um orçamento." target="_blank" rel="noopener noreferrer">Solicitar orçamento</a>
-          <a class="btn btn--ghost" href="#projetos">Conhecer meus projetos</a>
-        </div>
+    <header class="header">
+      <div class="wrap header__in">
+        <a class="brand" href="#inicio" data-bind="brand">Rafael Pacheco</a>
+        <button
+          class="menu-btn"
+          id="menuBtn"
+          aria-expanded="false"
+          aria-controls="nav"
+        >
+          Menu
+        </button>
+        <nav class="nav" id="nav" aria-label="Principal">
+          <a href="#inicio">Início</a>
+          <a href="#sobre">Sobre mim</a>
+          <a href="#servicos">Serviços e preços</a>
+          <a href="#projetos">Projetos autorais</a>
+          <a href="#contato">Contato</a>
+          <a
+            class="btn btn--sm"
+            data-wa="Olá! Vi seu site e gostaria de conversar sobre um serviço de desenvolvimento."
+            target="_blank"
+            rel="noopener noreferrer"
+            >WhatsApp</a
+          >
+        </nav>
       </div>
-    </section>
+    </header>
 
-    <section class="section" id="sobre">
-      <div class="wrap grid2">
-        <h2>Sobre mim</h2>
+    <main id="conteudo">
+      <section class="hero" id="inicio">
+        <div class="wrap">
+          <p class="muted" data-bind="role">
+            Estudante de Sistemas de Informação
+          </p>
+          <h1 data-bind="headline">
+            Software simples, bem feito e com comunicação clara.
+          </h1>
+          <p class="lead" data-bind="intro">
+            Sou estudante de Sistemas de Informação e tenho formação técnica em
+            andamento em informática. Desenvolvo sites, scripts, automações e
+            aplicações simples, com atenção ao que você realmente precisa.
+          </p>
+          <div class="actions">
+            <a
+              class="btn"
+              data-wa="Olá! Vi seu site e gostaria de solicitar um orçamento."
+              target="_blank"
+              rel="noopener noreferrer"
+              >Solicitar orçamento</a
+            >
+            <a class="btn btn--ghost" href="#projetos"
+              >Conhecer meus projetos</a
+            >
+          </div>
+        </div>
         <div>
-          <p data-bind="about">Estou no início da carreira em tecnologia e uso projetos próprios para praticar e aprender. Gosto de entender o problema antes de escrever código e prefiro combinar escopos pequenos e entregáveis a prometer o que ainda não domino.</p>
-          <p>Já tive contato com:</p>
-          <ul class="chips" id="skills"></ul>
-          <p class="muted small">Sigo estudando. Para projetos maiores ou mais complexos, avalio o escopo antes de aceitar.</p>
+          <img src="./IMG/FotoRafael.jpeg" alt="Foto do Rafael" />
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section class="section section--alt" id="servicos">
-      <div class="wrap">
-        <h2>Serviços e preços</h2>
-        <p class="lead">Soluções digitais simples para pessoas físicas, estudantes e pequenos empreendedores. Os valores abaixo são pontos de partida para escopos reduzidos.</p>
-        <div class="cards" id="services"></div>
-        <p class="note"><strong>Importante:</strong> o orçamento final depende da complexidade, dos requisitos, do prazo e do escopo. Hospedagem, domínio, APIs pagas e outros custos externos não estão incluídos automaticamente. Sistemas complexos, de grande porte ou com integrações avançadas exigem avaliação prévia.</p>
-      </div>
-    </section>
-
-    <section class="section" id="projetos">
-      <div class="wrap">
-        <h2>Projetos autorais</h2>
-        <p class="lead">Projetos pessoais, criados por iniciativa própria.</p>
-        <div class="cards" id="projects"></div>
-      </div>
-    </section>
-
-    <section class="section section--dark" id="contato">
-      <div class="wrap">
-        <h2>Vamos conversar?</h2>
-        <p class="lead">Conte o que você precisa, com o máximo de detalhes que puder, e peça um orçamento. Respondo pelo WhatsApp.</p>
-        <div class="actions">
-          <a class="btn btn--light" data-wa="Olá! Vi seu site e gostaria de conversar sobre um serviço de desenvolvimento." target="_blank" rel="noopener noreferrer">Chamar no WhatsApp</a>
+      <section class="section" id="sobre">
+        <div class="wrap grid2">
+          <h2>Sobre mim</h2>
+          <div>
+            <p data-bind="about">
+              Estou no início da carreira em tecnologia e uso projetos próprios
+              para praticar e aprender. Gosto de entender o problema antes de
+              escrever código e prefiro combinar escopos pequenos e entregáveis
+              a prometer o que ainda não domino.
+            </p>
+            <p>Já tive contato com:</p>
+            <ul class="chips" id="skills"></ul>
+            <p class="muted small">
+              Sigo estudando. Para projetos maiores ou mais complexos, avalio o
+              escopo antes de aceitar.
+            </p>
+          </div>
         </div>
-        <ul class="social" id="social"></ul>
+      </section>
+
+      <section class="section section--alt" id="servicos">
+        <div class="wrap">
+          <h2>Serviços e preços</h2>
+          <p class="lead">
+            Soluções digitais simples para pessoas físicas, estudantes e
+            pequenos empreendedores. Os valores abaixo são pontos de partida
+            para escopos reduzidos.
+          </p>
+          <div class="cards" id="services"></div>
+          <p class="note">
+            <strong>Importante:</strong> o orçamento final depende da
+            complexidade, dos requisitos, do prazo e do escopo. Hospedagem,
+            domínio, APIs pagas e outros custos externos não estão incluídos
+            automaticamente. Sistemas complexos, de grande porte ou com
+            integrações avançadas exigem avaliação prévia.
+          </p>
+        </div>
+      </section>
+
+      <section class="section" id="projetos">
+        <div class="wrap">
+          <h2>Projetos autorais</h2>
+          <p class="lead">Projetos pessoais, criados por iniciativa própria.</p>
+          <div class="cards" id="projects"></div>
+        </div>
+      </section>
+
+      <section class="section section--dark" id="contato">
+        <div class="wrap">
+          <h2>Vamos conversar?</h2>
+          <p class="lead">
+            Conte o que você precisa, com o máximo de detalhes que puder, e peça
+            um orçamento. Respondo pelo WhatsApp.
+          </p>
+          <div class="actions">
+            <a
+              class="btn btn--light"
+              data-wa="Olá! Vi seu site e gostaria de conversar sobre um serviço de desenvolvimento."
+              target="_blank"
+              rel="noopener noreferrer"
+              >Chamar no WhatsApp</a
+            >
+          </div>
+          <ul class="social" id="social"></ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="wrap footer__in">
+        <p>
+          &copy; <span id="year"></span>
+          <span data-bind="brand">Rafael Pacheco</span>
+        </p>
+        <nav aria-label="Rodapé">
+          <a href="#sobre">Sobre mim</a>
+          <a href="#servicos">Serviços e preços</a>
+          <a href="#projetos">Projetos autorais</a>
+          <a href="#contato">Contato</a>
+        </nav>
+        <ul class="social social--sm" id="socialFooter"></ul>
       </div>
-    </section>
-  </main>
+    </footer>
 
-  <footer class="footer">
-    <div class="wrap footer__in">
-      <p>&copy; <span id="year"></span> <span data-bind="brand">Rafael Pacheco</span></p>
-      <nav aria-label="Rodapé">
-        <a href="#sobre">Sobre mim</a>
-        <a href="#servicos">Serviços e preços</a>
-        <a href="#projetos">Projetos autorais</a>
-        <a href="#contato">Contato</a>
-      </nav>
-      <ul class="social social--sm" id="socialFooter"></ul>
-    </div>
-  </footer>
-
-  <script src="./JavaScript/script.js"></script>
-</body>
+    <script src="./JavaScript/script.js"></script>
+  </body>
 </html>
