@@ -63,33 +63,45 @@
 
     <main id="conteudo">
       <section class="hero" id="inicio">
-        <div class="wrap">
-          <p class="muted" data-bind="role">
-            Estudante de Sistemas de Informação
-          </p>
-          <h1 data-bind="headline">
-            Software simples, bem feito e com comunicação clara.
-          </h1>
-          <p class="lead" data-bind="intro">
-            Sou estudante de Sistemas de Informação e tenho formação técnica em
-            andamento em informática. Desenvolvo sites, scripts, automações e
-            aplicações simples, com atenção ao que você realmente precisa.
-          </p>
-          <div class="actions">
-            <a
-              class="btn"
-              data-wa="Olá! Vi seu site e gostaria de solicitar um orçamento."
-              target="_blank"
-              rel="noopener noreferrer"
-              >Solicitar orçamento</a
-            >
-            <a class="btn btn--ghost" href="#projetos"
-              >Conhecer meus projetos</a
-            >
+        <div class="wrap hero__grid">
+          <div class="hero__text">
+            <p class="muted" data-bind="role">
+              Estudante de Sistemas de Informação
+            </p>
+            <h1 data-bind="headline">
+              Software simples, bem feito e com comunicação clara.
+            </h1>
+            <p class="lead" data-bind="intro">
+              Sou estudante de Sistemas de Informação e tenho formação técnica
+              em andamento em informática. Desenvolvo sites, scripts, automações
+              e aplicações simples, com atenção ao que você realmente precisa.
+            </p>
+            <div class="actions">
+              <a
+                class="btn"
+                data-wa="Olá! Vi seu site e gostaria de solicitar um orçamento."
+                target="_blank"
+                rel="noopener noreferrer"
+                >Solicitar orçamento</a
+              >
+              <a class="btn btn--ghost" href="#projetos"
+                >Conhecer meus projetos</a
+              >
+            </div>
           </div>
-        </div>
-        <div>
-          <img src="./IMG/FotoRafael.jpeg" alt="Foto do Rafael" />
+          <figure class="portrait">
+            <img
+              src="./IMG/FotoRafael.jpeg"
+              alt="Retrato de Rafael Pacheco, de cabelo comprido e camiseta preta"
+              width="900"
+              height="1200"
+              fetchpriority="high"
+            />
+            <figcaption class="portrait__tag">
+              <strong data-bind="brand">Rafael Pacheco</strong>
+              <span data-bind="role">Estudante de Sistemas de Informação</span>
+            </figcaption>
+          </figure>
         </div>
       </section>
 
